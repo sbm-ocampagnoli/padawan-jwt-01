@@ -14,3 +14,5 @@ const nossoToken = jwt.sign(
   );
 
   console.log(nossoToken);
+
+  console.log(jwt.decode(nossoToken));
